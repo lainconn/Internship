@@ -1,0 +1,12 @@
+services:
+  server:
+    build:
+      context: .
+    ports:
+      - 8000:8000
+    volumes:
+      - my_volume:/app/video
+
+volumes:
+  my_volume:
+
