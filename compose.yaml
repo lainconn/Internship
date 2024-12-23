@@ -2,8 +2,6 @@ services:
   model:
     build:
       context: .
-    ports:
-      - 8000:8000
     volumes:
       - my_volume:/app/video
 
